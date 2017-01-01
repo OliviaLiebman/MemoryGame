@@ -4,24 +4,29 @@
   text-align: center;
   font-family: 'Shrikhand', cursive;
 }
-.lead {
+.lead, #playBtn {
   font-family: 'Open Sans', sans-serif;
+}
+#playBtn {
+  margin-left: 45%;
+  margin-right: 42%;
+  width: 10%;
 }
 .clickable{
     cursor:pointer;
 }
  .cardPicture {
-    text-align: center;
+    background-position: center;
     width: 5em;
     height: 5em;
   }
 
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 500px) {
   .card {
     width:10em;
     height: 10em;
-    text-align: center;
+    background-position: center;
     margin: 0.5em 2em 0 2em;
     border: 1px solid black;
     background-image: url("../images/texture.jpg")
@@ -32,11 +37,12 @@
   }
  }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .card {
     width:3em;
     height: 3em;
     margin: 0.1em 0.5em 0 0.5em;
+    background-position: center;
     background-image: url("../images/texture.jpg")
   }
   .row {
